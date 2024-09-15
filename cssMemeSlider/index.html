@@ -13,8 +13,47 @@
 <body>
     <div class="container">
 
-        <!-- <div class="wrapper"> -->
         <div class="slider">
+
+            <div class="slides">
+                <img id="sl-1" class="slide" src="../images/1.png">
+                <img id="sl-2" class="slide" src="../images/2.png">
+                <img id="sl-3" class="slide" src="../images/3.jpg">
+                <img id="sl-4" class="slide" src="../images/4.jpg">
+                <img id="sl-5" class="slide" src="../images/5.jpg">
+            </div>
+
+            <div class="bottom-panel">
+
+                <input type="radio" name="slider" id="s1">
+                <input type="radio" name="slider" id="s2">
+                <input type="radio" name="slider" id="s3">
+                <input type="radio" name="slider" id="s4">
+                <input type="radio" name="slider" id="s5">
+
+                <div id="text">
+                    <span>text mem 1</span>
+                    <span>text mem 2</span>
+                    <span>text mem 3</span>
+                    <span>text mem 4</span>
+                    <span>text mem 5</span>
+                </div>
+
+                <div id="nav" class="nav">
+                    <label for="s1"><a class="nav-item" href="#sl-1"></a></label>
+                    <label for="s2"><a class="nav-item" href="#sl-2"></a></label>
+                    <label for="s3"><a class="nav-item" href="#sl-3"></a></label>
+                    <label for="s4"><a class="nav-item" href="#sl-4"></a></label>
+                    <label for="s5"><a class="nav-item" href="#sl-5"></a></label>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+    <!-- <div class="slider">
             <img id="s1" src="../images/1.png" alt="mem" class="slide">
             <img id="s2" src="../images/2.png" alt="mem" class="slide">
             <img id="s3" src="../images/3.jpg" alt="mem" class="slide">
@@ -23,26 +62,28 @@
         </div>
 
         <div class="bottom-panel">
+
             <div class="text">
-                <span>Test text</span>
+                <span id="m-text1" class="meme-text">Meme 1 text</span>
+                <span id="m-text2" class="meme-text">Meme 2 text</span>
+                <span id="m-text3" class="meme-text">Meme 3 text</span>
+                <span id="m-text4" class="meme-text">Meme 4 text</span>
+                <span id="m-text5" class="meme-text">Meme 5 text</span>
             </div>
 
-            <div class="pagination">
-
-                <a href="#s1" class="round"></a>
-                <a href="#s2" class="round"></a>
-                <a href="#s3" class="round"></a>
-                <a href="#s4" class="round"></a>
-                <a href="#s5" class="round"></a>
-            </div>
+            <ul class="pagination">
+                <a href="#s1" class="pg-item"></a>
+                <a href="#s2" class="pg-item"></a>
+                <a href="#s3" class="pg-item"></a>
+                <a href="#s4" class="pg-item"></a>
+                <a href="#s5" class="pg-item"></a>
+            </ul>
 
         </div>
 
-
-
-        <!-- </div> -->
     </div>
-
+ -->
+    <script src="../1.js"></script>
 </body>
 
 </html>
